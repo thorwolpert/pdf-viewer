@@ -9,7 +9,8 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/image',
-    '@nuxt/test-utils'
+    '@nuxt/test-utils',
+    'nuxt-vuefire'
   ],
 
   css: ['~/assets/css/main.css'],
@@ -18,5 +19,14 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  vuefire: {
+    auth: true,
+    config: {
+      apiKey: "AIzaSyC6Wy9eIpenaD1t7QU-jJheP4M-DaSSIac",
+      authDomain: "daxiom-ca-idam.firebaseapp.com",
+      projectId: "daxiom-ca-idam"
+    }
+  },
+  
   compatibilityDate: '2024-11-27'
 })

@@ -20,7 +20,11 @@
     "@nuxt/image": "1.10.0",
     "@nuxt/test-utils": "3.19.1",
     "@nuxt/ui": "^3.1.2",
-    "nuxt": "^3.17.4"
+    "coreutils": "^0.3.0",
+    "firebase": "^11.8.1",
+    "nuxt": "^3.17.4",
+    "nuxt-vuefire": "1.0.5",
+    "vuefire": ">=3.2.1"
   },
   "devDependencies": {
     "@nuxt/eslint": "^1.4.0",
