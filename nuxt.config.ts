@@ -19,6 +19,16 @@ export default defineNuxtConfig({
     compatibilityVersion: 4
   },
 
+  runtimeConfig: {
+    // Private keys are only available on the server
+    // Example: apiSecret: '123',
+
+    // Public keys that are exposed to the client-side
+    public: {
+      apiBaseUrl: 'REPLACE_WITH_YOUR_ACTUAL_API_BASE_URL' // Placeholder
+    }
+  },
+
   vuefire: {
     auth: true,
     config: {
